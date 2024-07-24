@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script async src="script.js"></script>
+    <title>Adivinhe the Number</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inicio">
+        <p>
+          Tente adivinhar o número que estou pensando, está entre 0 e 10, você
+          tem 3 tentativas. Quando estiver pronto aperte o botão.
+        </p>
+        <button id="Jogar" onclick="jogar()">Jogar</button>
+        <div id="div_main">
+          <label for="enunciado"
+            >Já pensei em um número, qual o seu chute?</label
+          >
+          <input type="number" name="chute" id="chute" />
+          <button id="chutar" onclick="chutar()">Chutar</button>
+          <p id="res"></p>
+        </div>
+      </div>
+      <div class="divimg">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/008/846/268/original/character-bussinesman-thinking-about-something-png.png"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
